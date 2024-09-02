@@ -1,0 +1,30 @@
+Installation Guide for Python and Required Libraries:
+Step 1: Install Python Latest Version
+1.	Go to the official Python website (https://www.python.org/downloads/) and download the latest stable version of Python.
+2.	Run the installer and follow the on-screen instructions to install Python on your system.
+3.	During installation, make sure to check the option "Add Python x.x to PATH" to add Python to your system environment variables.
+4.	After installation, open a new terminal/command prompt to verify that Python is installed correctly. Type python --version and pip --version to check the Python and pip versions, respectively.
+Step 2: Adding Environmental Variables
+1.	Find the installation path of Python. Typically, it's installed in "C:\PythonXX" (where XX is the version number).
+2.	Add the Python installation path to the system environment variables:
+•	Go to "Control Panel" > "System and Security" > "System."
+•	Click on "Advanced system settings" on the left-hand side.
+•	In the System Properties window, click the "Environment Variables" button.
+•	Under "System variables," scroll down and find the "Path" variable, then click "Edit."
+•	Click "New" and add the path to the Python installation folder (e.g., "C:\PythonXX" or "C:\PythonXX\Scripts").
+•	Click "OK" to save the changes.
+Step 3: Install Required Python Libraries
+1.	Open a terminal/command prompt.
+2.	Install pandas, pdfkit, pdf2image, openpyxl, and selenium using pip:
+Step 4: Install Poppler from the CCDDSS Directory
+1.	Download the Poppler package for your operating system from the CCDDSS directory or the official website (https://poppler.freedesktop.org/).
+2.	Extract the contents of the downloaded zip file to a location on your computer (e.g., "C:\ccddss\poppler").
+3.	Add the Poppler installation path to the system environment variables:
+•	Go to "Control Panel" > "System and Security" > "System."
+•	Click on "Advanced system settings" on the left-hand side.
+•	In the System Properties window, click the "Environment Variables" button.
+•	Under "System variables," scroll down and find the "Path" variable, then click "Edit."
+•	Click "New" and add the path to the Poppler installation folder (e.g., "C:\ccddss\poppler").
+•	Click "OK" to save the changes.
+That's it! You have successfully installed Python and the required libraries (pandas, pdfkit, pdf2image, openpyxl, selenium) and added the Poppler binary path to the system environment variables. Now you can start using these libraries and Poppler in your Python projects.
+
